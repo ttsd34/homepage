@@ -1,0 +1,122 @@
+#background {
+    width: 776px;
+    margin: 30px auto;
+    display: block;
+}
+.box {
+    position: relative;
+}
+#logo {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    width: 100px;
+}
+#name {
+    margin: -252.4px 0px;
+    text-align: center;
+    font-size: 72px;
+}
+.all-content {
+    position: relative;
+}
+header {
+    position: relative;
+    min-height: 350.8px;
+    margin-bottom: 30px;
+}
+main {
+    position: relative;
+}
+footer {
+    background-color: #000000;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+footer p, footer h2, footer span {
+    color: #FFFFFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#contentlist {
+    height: 230px;
+    width: 300px;
+    padding: 5px 10px;
+    border: #000000 solid;
+    border-radius: 5px;
+    margin: auto;
+}
+.headline {
+    background-color: #7FFF00;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    padding: 10px 5px;
+    border-left: 2px #202020 solid;
+    border-bottom: 5px #505050 solid;
+    width: 800px;
+}
+.subheadline {
+    background-color: #7FFF00;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    padding: 5px;
+    border-left: 5px #505050 solid;
+    border-right: 5px #505050 solid;
+    width: 600px;
+}
+.footheadline {
+    background-color: #8F8F8F;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    padding: 5px;
+    border-left: 5px #505050 solid;
+    border-right: 5px #505050 solid;
+    width: 600px;
+}
+.hide {
+    color: black;
+    background: black;
+    padding: 4px;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+.hide {
+	width:			100px;
+	height:			18px;
+	overflow:		hidden;
+	position:		relative;
+}
+.hide .caption {
+	text-align: center;
+	color: #FFFFFF;
+}
+.hide .mask {
+    margin: auto;
+    height: 22px;
+	position: absolute;
+    inset: 0;
+	opacity: 0;
+	background-color: #000000;
+	-webkit-transition:	all 0.2s ease;
+	transition:	all 0.2s ease;
+}
+.hide:hover .mask {
+	opacity: 1;
+}
+table p {
+    margin: 0px;
+}
+td {
+    padding: 5px 0px;
+}
+br {
+    margin-top: 3px;
+}
+.space {
+    height: 5px;
+}
